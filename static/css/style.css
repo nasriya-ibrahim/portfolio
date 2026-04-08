@@ -321,6 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   position: relative;
+  min-height: 250px;
 }
 
 .tech-card {
@@ -678,6 +679,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  .hero-visual {
+    transform: scale(0.85);
+    margin-top: 2rem;
+  }
+
   .menu-toggle {
     display: block;
   }
